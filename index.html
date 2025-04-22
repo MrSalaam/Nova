@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nova Creative Agency</title>
+
+    <!-- FONT LINK -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="content">
+        <header id="header"  class="glass-navbar">
+
+            <!-- LOGO -->
+            <div class="logo" id="logo">
+                <h1>Nova.</h1>
+            </div>
+
+            <!-- NAV LINKS -->
+
+
+            <div class="nav-links" id="nav-links">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="#hero" class="active">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#listings">LISTINGS</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#testimonials">TESTIMONIALS</a></li>
+                        <li><a href="#pricing">PRICING</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!--Social Icons in Header-->
+            <div class="social-icons">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M 25 3 C 12.861562 3 3 12.861562 3 25 C 3 36.019135 11.127533 45.138355 21.712891 46.728516 L 22.861328 46.902344 L 22.861328 29.566406 L 17.664062 29.566406 L 17.664062 26.046875 L 22.861328 26.046875 L 22.861328 21.373047 C 22.861328 18.494965 23.551973 16.599417 24.695312 15.410156 C 25.838652 14.220896 27.528004 13.621094 29.878906 13.621094 C 31.758714 13.621094 32.490022 13.734993 33.185547 13.820312 L 33.185547 16.701172 L 30.738281 16.701172 C 29.349697 16.701172 28.210449 17.475903 27.619141 18.507812 C 27.027832 19.539724 26.84375 20.771816 26.84375 22.027344 L 26.84375 26.044922 L 32.966797 26.044922 L 32.421875 29.564453 L 26.84375 29.564453 L 26.84375 46.929688 L 27.978516 46.775391 C 38.71434 45.319366 47 36.126845 47 25 C 47 12.861562 37.138438 3 25 3 z M 25 5 C 36.057562 5 45 13.942438 45 25 C 45 34.729791 38.035799 42.731796 28.84375 44.533203 L 28.84375 31.564453 L 34.136719 31.564453 L 35.298828 24.044922 L 28.84375 24.044922 L 28.84375 22.027344 C 28.84375 20.989871 29.033574 20.060293 29.353516 19.501953 C 29.673457 18.943614 29.981865 18.701172 30.738281 18.701172 L 35.185547 18.701172 L 35.185547 12.009766 L 34.318359 11.892578 C 33.718567 11.811418 32.349197 11.621094 29.878906 11.621094 C 27.175808 11.621094 24.855567 12.357448 23.253906 14.023438 C 21.652246 15.689426 20.861328 18.170128 20.861328 21.373047 L 20.861328 24.046875 L 15.664062 24.046875 L 15.664062 31.566406 L 20.861328 31.566406 L 20.861328 44.470703 C 11.816995 42.554813 5 34.624447 5 25 C 5 13.942438 13.942438 5 25 5 z"></path></svg></a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path></svg></a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path></svg></a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 14 11.011719 C 12.904779 11.011719 11.919219 11.339079 11.189453 11.953125 C 10.459687 12.567171 10.011719 13.484511 10.011719 14.466797 C 10.011719 16.333977 11.631285 17.789609 13.691406 17.933594 A 0.98809878 0.98809878 0 0 0 13.695312 17.935547 A 0.98809878 0.98809878 0 0 0 14 17.988281 C 16.27301 17.988281 17.988281 16.396083 17.988281 14.466797 A 0.98809878 0.98809878 0 0 0 17.986328 14.414062 C 17.884577 12.513831 16.190443 11.011719 14 11.011719 z M 14 12.988281 C 15.392231 12.988281 15.94197 13.610038 16.001953 14.492188 C 15.989803 15.348434 15.460091 16.011719 14 16.011719 C 12.614594 16.011719 11.988281 15.302225 11.988281 14.466797 C 11.988281 14.049083 12.140703 13.734298 12.460938 13.464844 C 12.78117 13.19539 13.295221 12.988281 14 12.988281 z M 11 19 A 1.0001 1.0001 0 0 0 10 20 L 10 39 A 1.0001 1.0001 0 0 0 11 40 L 17 40 A 1.0001 1.0001 0 0 0 18 39 L 18 33.134766 L 18 20 A 1.0001 1.0001 0 0 0 17 19 L 11 19 z M 20 19 A 1.0001 1.0001 0 0 0 19 20 L 19 39 A 1.0001 1.0001 0 0 0 20 40 L 26 40 A 1.0001 1.0001 0 0 0 27 39 L 27 29 C 27 28.170333 27.226394 27.345035 27.625 26.804688 C 28.023606 26.264339 28.526466 25.940057 29.482422 25.957031 C 30.468166 25.973981 30.989999 26.311669 31.384766 26.841797 C 31.779532 27.371924 32 28.166667 32 29 L 32 39 A 1.0001 1.0001 0 0 0 33 40 L 39 40 A 1.0001 1.0001 0 0 0 40 39 L 40 28.261719 C 40 25.300181 39.122788 22.95433 37.619141 21.367188 C 36.115493 19.780044 34.024172 19 31.8125 19 C 29.710483 19 28.110853 19.704889 27 20.423828 L 27 20 A 1.0001 1.0001 0 0 0 26 19 L 20 19 z M 12 21 L 16 21 L 16 33.134766 L 16 38 L 12 38 L 12 21 z M 21 21 L 25 21 L 25 22.560547 A 1.0001 1.0001 0 0 0 26.798828 23.162109 C 26.798828 23.162109 28.369194 21 31.8125 21 C 33.565828 21 35.069366 21.582581 36.167969 22.742188 C 37.266572 23.901794 38 25.688257 38 28.261719 L 38 38 L 34 38 L 34 29 C 34 27.833333 33.720468 26.627107 32.990234 25.646484 C 32.260001 24.665862 31.031834 23.983076 29.517578 23.957031 C 27.995534 23.930001 26.747519 24.626988 26.015625 25.619141 C 25.283731 26.611293 25 27.829667 25 29 L 25 38 L 21 38 L 21 21 z"></path></svg></a>
+            </div>
+
+            <!-- HAMBURGER ICON -->
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </header>
+
+
+
+        <section class="hero" id="hero">
+
+            <!-- HERO-->
+
+            <div class="hero-header">
+                <h1>Discover Comfortable, Affordable Homes for Rent Across Your City</h1>
+                <p>At Nova Homes, we make house hunting stress-free by connecting you with a wide selection of verified rental properties. Whether you're looking for a modern apartment, a spacious family home, or a cozy studio, our platform helps you find the perfect place to call home-quickly and easily.</p>
+                <div class="hero-button">
+                    <a href="#about" class="btn">Get Started</a>
+                </div>
+            </div>
+
+
+            <!-- HERO IMAGE -->
+            <div class="hero-image">
+                <img src="./public/home design.jpg" alt="Hero Image">
+            </div>
+        </section>
+   </div>
+
+   <!-- ABOUT SECTION -->
+
+
+   <section class="about" id="about">
+    <div class="about-container fade-in">
+      <div class="about-text">
+        <h2>About <span>Nova</span></h2>
+        <p>
+          Nova Homes is built on one belief: everyone deserves a space that feels like home.
+          We simplify the renting process through smart filters, verified listings, and a friendly platform.
+        </p>
+        <p>
+          Whether you're upgrading, relocating, or just browsing, we’re here to connect you to spaces that fit your life — beautifully.
+        </p>
+        <a href="#contact" class="btn">Let’s Talk</a>
+      </div>
+      <div class="about-image">
+        <img src="./public/about image.jpg" alt="Modern Home Interior">
+      </div>
+    </div>
+  
+    <!-- Stats Section -->
+    <div class="stats-container fade-in">
+      <div class="stat-box">
+        <h3>10+ Years</h3>
+        <p>Experience</p>
+      </div>
+      <div class="stat-box">
+        <h3>1,200+</h3>
+        <p>Listings</p>
+      </div>
+      <div class="stat-box">
+        <h3>98%</h3>
+        <p>Happy Renters</p>
+      </div>
+      <div class="stat-box">
+        <h3>24/7</h3>
+        <p>Support</p>
+      </div>
+    </div>
+  
+    <!-- Mission/Values Section -->
+    <div class="values-container fade-in">
+      <div class="value-box">
+        <div class="icon">🏡</div>
+        <h4>Comfort</h4>
+        <p>Designed to feel like home from day one.</p>
+      </div>
+      <div class="value-box">
+        <div class="icon">🔍</div>
+        <h4>Clarity</h4>
+        <p>Verified listings. Zero surprises.</p>
+      </div>
+      <div class="value-box">
+        <div class="icon">⚡</div>
+        <h4>Efficiency</h4>
+        <p>Find your place. Fast and stress-free.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- listings section -->
+
+  
+  <section class="listings" id="listings">
+    <h2 class="section-title">Featured <span>Listings</span></h2>
+
+
+    <!-- Filter/Search -->
+    <div class="filter-bar">
+      <input type="text" placeholder="Search by location..." class="filter-input" />
+      <select class="filter-select">
+        <option value="">All Prices</option>
+        <option value="low">Below ₦200,000</option>
+        <option value="mid">₦200,000 – ₦500,000</option>
+        <option value="high">Above ₦500,000</option>
+      </select>
+    </div>
+
+    <div class="listings-grid">
+      <div class="listing-card">
+        <img src="./public/modern family home.jpg" alt="Modern Family Home">
+        <div class="listing-info">
+          <h3>Modern Family Home</h3>
+          <p>📍 Lekki, Lagos</p>
+          <p class="price">₦250,000/month</p>
+        </div>
+      </div>
+  
+      <div class="listing-card">
+        <img src="./public/luxury apart.jpg" alt="Luxury Apartment">
+        <div class="listing-info">
+          <h3>Luxury Apartment</h3>
+          <p>📍 Abuja</p>
+          <p class="price">₦450,000/month</p>
+        </div>
+      </div>
+  
+      <div class="listing-card">
+        <img src="./public/cozy home.jpg" alt="Cozy Studio Flat">
+        <div class="listing-info">
+          <h3>Cozy Studio Flat</h3>
+          <p>📍 Ibadan</p>
+          <p class="price">₦120,000/month</p>
+        </div>
+      </div>
+  
+      <div class="listing-card">
+        <img src="./public/duplex.jpg" alt="Duplex in GRA">
+        <div class="listing-info">
+          <h3>Duplex in GRA</h3>
+          <p>📍 Port Harcourt</p>
+          <p class="price">₦380,000/month</p>
+        </div>
+      </div>
+  
+      <div class="listing-card">
+        <img src="./public/serviced aprt.jpg" alt="Serviced Apartment">
+        <div class="listing-info">
+          <h3>Serviced Apartment</h3>
+          <p>📍 Victoria Island</p>
+          <p class="price">₦600,000/month</p>
+        </div>
+      </div>
+  
+      <div class="listing-card">
+        <img src="./public/charming 2 bedroom.jpg" alt="Charming 2-Bedroom">
+        <div class="listing-info">
+          <h3>Charming 2-Bedroom</h3>
+          <p>📍 Enugu</p>
+          <p class="price">₦200,000/month</p>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+    <section class="services" id="services">
+      <h2 class="section-title">Our <span>Services</span></h2>
+      
+      <div class="services-grid">
+        <div class="service-box fade-in">
+          <div class="service-icon">🏘️</div>
+          <h3>Verified Rentals</h3>
+          <p>We ensure all listings are verified and legit so you rent with peace of mind.</p>
+        </div>
+        
+        <div class="service-box fade-in">
+          <div class="service-icon">📦</div>
+          <h3>Relocation Help</h3>
+          <p>Moving into a new place? We’ll assist you from packing to settling in.</p>
+        </div>
+        
+        <div class="service-box fade-in">
+          <div class="service-icon">🤝</div>
+          <h3>Landlord Support</h3>
+          <p>Own a property? We help manage listings, renters, and everything in between.</p>
+        </div>
+    
+        <div class="service-box fade-in">
+          <div class="service-icon">💬</div>
+          <h3>24/7 Chat</h3>
+          <p>Questions? Our support team is always available to assist you, anytime.</p>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <!-- testimonials -->
+
+    <section class="testimonials" id="testimonials">
+      <h2 class="section-title">What <span>Renters Say</span></h2>
+    
+      <div class="testimonial-grid">
+        <div class="testimonial-box fade-in">
+          <img src="./public/aisha.jpg" alt="Aisha" class="avatar" />
+          <p class="testimonial-text">
+            “Nova made my apartment hunt a breeze. I found a place I love in under a week!”
+          </p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <div class="testimonial-author">— Aisha, Lagos</div>
+        </div>
+    
+        <div class="testimonial-box fade-in">
+          <img src="./public/emeka.jpg" alt="Emeka" class="avatar" />
+          <p class="testimonial-text">
+            “I was relocating for work and Nova handled everything smoothly. Highly recommended.”
+          </p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <div class="testimonial-author">— Emeka, Abuja</div>
+        </div>
+    
+        <div class="testimonial-box fade-in">
+          <img src="./public/zainab.jpg" alt="Zainab" class="avatar" />
+          <p class="testimonial-text">
+            “Verified listings saved me from scammers. I trust Nova with my housing needs.”
+          </p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <div class="testimonial-author">— Zainab, Ibadan</div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- pricing section -->
+
+
+    <section class="pricing" id="pricing">
+      <h2 class="section-title">Choose Your <span>Plan</span></h2>
+    
+      <div class="pricing-grid">
+        <!-- Starter Plan -->
+        <div class="pricing-box fade-in">
+          <h3>Starter</h3>
+          <p class="price">₦0<span>/month</span></p>
+          <ul class="features">
+            <li>Browse Listings</li>
+            <li>Basic Filters</li>
+            <li>Email Support</li>
+          </ul>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+    
+        <!-- Standard Plan -->
+        <div class="pricing-box popular fade-in">
+          <h3>Standard</h3>
+          <p class="price">₦5,000<span>/month</span></p>
+          <ul class="features">
+            <li>Unlimited Listings</li>
+            <li>Advanced Filters</li>
+            <li>Priority Support</li>
+          </ul>
+          <a href="#" class="btn">Choose Plan</a>
+        </div>
+    
+        <!-- Premium Plan -->
+        <div class="pricing-box fade-in">
+          <h3>Premium</h3>
+          <p class="price">₦10,000<span>/month</span></p>
+          <ul class="features">
+            <li>Verified Agents</li>
+            <li>Instant Notifications</li>
+            <li>24/7 Support</li>
+          </ul>
+          <a href="#" class="btn">Upgrade</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT SSECTION -->
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Get in <span>Touch</span></h2>
+      <p class="contact-subtitle">Questions, partnerships, or property inquiries — we’re here to help.</p>
+    
+      <div class="contact-content">
+        <!-- Contact Info -->
+        <div class="contact-info fade-in">
+          <div class="info-item">
+            <span class="icon">📍</span>
+            <p>Nova Homes HQ, Bodija, Ibadan, Nigeria</p>
+          </div>
+          <div class="info-item">
+            <span class="icon">📞</span>
+            <p>+234 812 345 6789</p>
+          </div>
+          <div class="info-item">
+            <span class="icon">✉️</span>
+            <p>contact@novahomes.ng</p>
+          </div>
+        </div>
+    
+        <!-- Contact Form -->
+        <form class="contact-form fade-in">
+          <div class="input-group">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <textarea name="message" rows="5" placeholder="Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- FOOTER -->
+
+
+
+    <footer class="footer">
+      <div class="footer-container">
+
+    
+        <div class="footer-brand">
+          <h3>Nova.</h3>
+          <p>Where comfort meets convenience.Your ideal rental awaits.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#listings">Listings</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    
+        <!-- Contact Info -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📞 +234 812 345 6789</p>
+          <p>✉️ contact@novahomes.ng</p>
+          <p>📍 Bodija, Ibadan, Nigeria</p>
+        </div>
+    
+        <!-- Socials -->
+        <div class="footer-socials">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M 25 3 C 12.861562 3 3 12.861562 3 25 C 3 36.019135 11.127533 45.138355 21.712891 46.728516 L 22.861328 46.902344 L 22.861328 29.566406 L 17.664062 29.566406 L 17.664062 26.046875 L 22.861328 26.046875 L 22.861328 21.373047 C 22.861328 18.494965 23.551973 16.599417 24.695312 15.410156 C 25.838652 14.220896 27.528004 13.621094 29.878906 13.621094 C 31.758714 13.621094 32.490022 13.734993 33.185547 13.820312 L 33.185547 16.701172 L 30.738281 16.701172 C 29.349697 16.701172 28.210449 17.475903 27.619141 18.507812 C 27.027832 19.539724 26.84375 20.771816 26.84375 22.027344 L 26.84375 26.044922 L 32.966797 26.044922 L 32.421875 29.564453 L 26.84375 29.564453 L 26.84375 46.929688 L 27.978516 46.775391 C 38.71434 45.319366 47 36.126845 47 25 C 47 12.861562 37.138438 3 25 3 z M 25 5 C 36.057562 5 45 13.942438 45 25 C 45 34.729791 38.035799 42.731796 28.84375 44.533203 L 28.84375 31.564453 L 34.136719 31.564453 L 35.298828 24.044922 L 28.84375 24.044922 L 28.84375 22.027344 C 28.84375 20.989871 29.033574 20.060293 29.353516 19.501953 C 29.673457 18.943614 29.981865 18.701172 30.738281 18.701172 L 35.185547 18.701172 L 35.185547 12.009766 L 34.318359 11.892578 C 33.718567 11.811418 32.349197 11.621094 29.878906 11.621094 C 27.175808 11.621094 24.855567 12.357448 23.253906 14.023438 C 21.652246 15.689426 20.861328 18.170128 20.861328 21.373047 L 20.861328 24.046875 L 15.664062 24.046875 L 15.664062 31.566406 L 20.861328 31.566406 L 20.861328 44.470703 C 11.816995 42.554813 5 34.624447 5 25 C 5 13.942438 13.942438 5 25 5 z"></path></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"><path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 14 11.011719 C 12.904779 11.011719 11.919219 11.339079 11.189453 11.953125 C 10.459687 12.567171 10.011719 13.484511 10.011719 14.466797 C 10.011719 16.333977 11.631285 17.789609 13.691406 17.933594 A 0.98809878 0.98809878 0 0 0 13.695312 17.935547 A 0.98809878 0.98809878 0 0 0 14 17.988281 C 16.27301 17.988281 17.988281 16.396083 17.988281 14.466797 A 0.98809878 0.98809878 0 0 0 17.986328 14.414062 C 17.884577 12.513831 16.190443 11.011719 14 11.011719 z M 14 12.988281 C 15.392231 12.988281 15.94197 13.610038 16.001953 14.492188 C 15.989803 15.348434 15.460091 16.011719 14 16.011719 C 12.614594 16.011719 11.988281 15.302225 11.988281 14.466797 C 11.988281 14.049083 12.140703 13.734298 12.460938 13.464844 C 12.78117 13.19539 13.295221 12.988281 14 12.988281 z M 11 19 A 1.0001 1.0001 0 0 0 10 20 L 10 39 A 1.0001 1.0001 0 0 0 11 40 L 17 40 A 1.0001 1.0001 0 0 0 18 39 L 18 33.134766 L 18 20 A 1.0001 1.0001 0 0 0 17 19 L 11 19 z M 20 19 A 1.0001 1.0001 0 0 0 19 20 L 19 39 A 1.0001 1.0001 0 0 0 20 40 L 26 40 A 1.0001 1.0001 0 0 0 27 39 L 27 29 C 27 28.170333 27.226394 27.345035 27.625 26.804688 C 28.023606 26.264339 28.526466 25.940057 29.482422 25.957031 C 30.468166 25.973981 30.989999 26.311669 31.384766 26.841797 C 31.779532 27.371924 32 28.166667 32 29 L 32 39 A 1.0001 1.0001 0 0 0 33 40 L 39 40 A 1.0001 1.0001 0 0 0 40 39 L 40 28.261719 C 40 25.300181 39.122788 22.95433 37.619141 21.367188 C 36.115493 19.780044 34.024172 19 31.8125 19 C 29.710483 19 28.110853 19.704889 27 20.423828 L 27 20 A 1.0001 1.0001 0 0 0 26 19 L 20 19 z M 12 21 L 16 21 L 16 33.134766 L 16 38 L 12 38 L 12 21 z M 21 21 L 25 21 L 25 22.560547 A 1.0001 1.0001 0 0 0 26.798828 23.162109 C 26.798828 23.162109 28.369194 21 31.8125 21 C 33.565828 21 35.069366 21.582581 36.167969 22.742188 C 37.266572 23.901794 38 25.688257 38 28.261719 L 38 38 L 34 38 L 34 29 C 34 27.833333 33.720468 26.627107 32.990234 25.646484 C 32.260001 24.665862 31.031834 23.983076 29.517578 23.957031 C 27.995534 23.930001 26.747519 24.626988 26.015625 25.619141 C 25.283731 26.611293 25 27.829667 25 29 L 25 38 L 21 38 L 21 21 z"></path></svg></a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2025 Nova. All rights reserved.</p>
+      </div>
+    </footer>
+    
+
+
+    <script>
+      const hamburger = document.getElementById('hamburger');
+      const navLinks = document.getElementById('nav-links');
+  
+      hamburger.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+          hamburger.classList.toggle('open');
+      });
+  </script>
+  
+
+    
+    
+    
+  
+
+   
+
+</body>
+</html>
